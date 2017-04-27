@@ -1,4 +1,23 @@
-.col-md-12 {
-  height: 500px; }
+body {
+  background-color: #337ab7; }
+  body .row .panel.panel-default {
+    float: none;
+    margin: 0 auto;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px; }
+    body .row .panel.panel-default .panel-heading {
+      background: repeating-linear-gradient(-55deg, #337ab7, #337ab7 10px, #cd6a51 10px, #cd6a51 20px); }
+      body .row .panel.panel-default .panel-heading h1 {
+        color: white; }
+    body .row .panel.panel-default .btn.btn-primary.btn-lg {
+      width: 50%;
+      margin: 0 auto;
+      margin-left: 25%; }
+  body .row .panel.panel-default {
+    margin: 30px; }
+    body .row .panel.panel-default .result {
+      margin: 0 auto;
+      font-family: Garamond; }
 
 /*# sourceMappingURL=style.css.map */

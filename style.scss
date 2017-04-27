@@ -1,5 +1,45 @@
-.col-md-12 {
+body {
 
-	height: 500px;
-	
+	background-color: #337ab7;
+
+	.row {
+
+		.panel.panel-default {	
+			float: none;
+			margin: 0 auto;
+			border-color: #ddd;
+    		border-width: 1px;
+    		border-radius: 4px 4px 4px 4px;
+
+    		.panel-heading {
+    			h1 {
+    				color: white;
+    			}
+
+				background: repeating-linear-gradient(
+				  -55deg,
+				  #337ab7,
+				  #337ab7 10px,
+				  #cd6a51 10px,
+				  #cd6a51 20px
+				);
+			}
+
+			.btn.btn-primary.btn-lg {
+				width: 50%;
+				margin: 0 auto;
+				margin-left: 25%;
+			}
+		}
+
+		.panel.panel-default {
+			margin: 30px;
+
+			.result {
+				margin: 0 auto;
+				font-family: Garamond;
+			}
+		}	
+	}
 }
+

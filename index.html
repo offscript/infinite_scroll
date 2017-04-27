@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang='en'>
     <head>
+        <title>Keating Movie Browse</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="script.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -8,7 +9,23 @@
     </head>
     <body>
         <div class="container">
-            <div class="col-md-12" id="fuckthis"></div>
+            <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1>Keating Movie Browse</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p>Welcome, to Keating Movie Browse. This is a JavaScript, jQuery, and AJAX project. Press the button below and I'll get you ten random movies from <a href="http://www.omdbapi.com/">The Open Move Database</a>. Then if you want more movies, I'll get you more movies, just scroll down and until you're movie'd out! You can get back to my personal website by clicking <a href="https://offscript.github.io/">here</a>. Have fun!</p>
+                        <button type="button" class="btn btn-primary btn-lg">Browse Movies</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="panel panel-default" id="results-panel">
+                    <ul class="list-group">
+                    </ul>
+                </div>
+            </div>
         </div>
     </body>
 
