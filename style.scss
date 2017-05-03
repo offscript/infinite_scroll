@@ -33,11 +33,21 @@ body {
 		}
 
 		.panel.panel-default {
-			margin: 30px;
+			margin: 30px; 
 
 			.result {
-				margin: 0 auto;
+				//margin: 0 auto;
 				font-family: Garamond;
+				overflow: auto;
+
+				div {
+					display: inline-block;
+					margin-left: 20px;
+				}
+
+				img {
+					float: left;
+				}
 			}
 		}	
 	}
