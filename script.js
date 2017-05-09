@@ -107,7 +107,7 @@ var Search = (function () {
         $.ajax({
  
                 // The URL for the request
-            url: "http://www.omdbapi.com/?",
+            url: "https://www.omdbapi.com/?",
          
             // The data to send (will be converted to a query string)
             data: {
